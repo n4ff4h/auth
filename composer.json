@@ -22,23 +22,6 @@
             "email": "arushad@javaabu.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Javaabu/forms",
-            "no-api": true
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/Javaabu/manifest",
-            "no-api": true
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/Javaabu/permissions",
-            "no-api": true
-        }
-    ],
     "require": {
         "php": "^8.4",
         "bacon/bacon-qr-code": "^3.0",
@@ -48,9 +31,9 @@
         "illuminate/notifications": "^12.0 || ^13.0",
         "illuminate/routing": "^12.0 || ^13.0",
         "illuminate/support": "^12.0 || ^13.0",
-        "javaabu/forms": "^2.0@dev",
-        "javaabu/manifest": "^1.0@dev",
-        "javaabu/permissions": "^3.0@dev",
+        "javaabu/forms": "^2.0@alpha",
+        "javaabu/manifest": "^1.0@alpha",
+        "javaabu/permissions": "^3.0@alpha",
         "laravel/passkeys": "^0.2.1",
         "mobiledetect/mobiledetectlib": "^4.8",
         "pragmarx/google2fa": "^9.0"
